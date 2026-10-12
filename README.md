@@ -6,8 +6,8 @@ Single-page portfolio. 3D artist and full-stack developer, Manama, Bahrain.
 
 | Path | Purpose |
 |---|---|
-| `dist/index.html` | **The deployable site.** Standalone, self-contained. |
-| `dist/favicon.svg` | Browser tab icon, generated from the brand mark. |
+| `docs/index.html` | **The deployable site.** Standalone, self-contained. |
+| `docs/favicon.svg` | Browser tab icon, generated from the brand mark. |
 | `index.html` | Artifact-platform version (no doctype/head — do not host this one). |
 | `preview.bat` | Double-click to preview at http://localhost:8080 |
 
@@ -16,4 +16,4 @@ The only external requests are Google Fonts and Three.js 0.149.0 from cdnjs.
 
 ## Deploy
 
-Upload the **contents of `dist/`** to any static host.
+Upload the **contents of `docs/`** to any static host.

@@ -1,3 +1,6 @@
 # local preview artifacts
 _serve_index.html
 *.log
+
+# local build dir (GitHub Pages serves docs/)
+dist/
