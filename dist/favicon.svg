@@ -1,0 +1,23 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"  aria-label="Maryam Shoaib monogram">
+        <rect width="64" height="64" rx="12" fill="#0e1116"/><defs>
+          <linearGradient id="mkA" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#ffc268"/>
+            <stop offset="1" stop-color="#f0a132"/>
+          </linearGradient>
+          <linearGradient id="mkB" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#7a5418"/>
+            <stop offset="1" stop-color="#432d0c"/>
+          </linearGradient>
+        </defs>
+        <!-- recessed inner shards -->
+        <path class="mark-edge" d="M14 30 L22 41 L22 55 L12 40 Z" fill="url(#mkB)" opacity=".85"/>
+        <path class="mark-edge" d="M50 30 L42 41 L42 55 L52 40 Z" fill="url(#mkB)" opacity=".85"/>
+        <!-- left wing -->
+        <path d="M3 7 L17 14 L30 54 L24 62 L10 26 Z" fill="url(#mkA)"/>
+        <!-- right wing -->
+        <path d="M61 7 L47 14 L34 54 L40 62 L54 26 Z" fill="url(#mkA)"/>
+        <!-- monogram: M stroke, sized to sit in the channel between the wings -->
+        <path d="M23 17 H28.5 L32 27.5 L35.5 17 H41 L41 46 H36.2 L36.2 30.5 L33 39.5 H31 L27.8 30.5 L27.8 46 H23 Z" fill="url(#mkA)"/>
+        <!-- angular bite out of the glyph's shoulder, echoing the reference mark -->
+        <path d="M36.2 17 H41 L41 23.5 Z" fill="#0e1116"/>
+      </svg>
